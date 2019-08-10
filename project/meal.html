@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>ITP 104 - 09-24-18 - form.html</title>
+
+
+
+
+
+</head>
+
+<body>
+  <body>
+  <body style = "background : url(http://blog.smartd.in/wp-content/uploads/2017/04/restaurant-complexities.jpg);background-size: 100% 100%; ">
+  </body>
+  <!doctype html>
+<html>
+	<head>
+		<title>Forms</title>
+		<style>
+			body {
+				font-family: "Arial";
+			}
+			#outercontainer {
+
+				color: white;
+				width: 800px;
+				margin-left: auto;
+				margin-right: auto;
+				/*opacity: 0.5;*/
+
+			}
+			.form-row {
+				margin-bottom: 10px;
+			}
+			.main-label {
+				font-weight: bold;
+				width: 200px;
+				/* label tags don't take in widths unless we use display: block*/
+				display: block;
+				float: left;
+				text-align: right;
+				margin-right: 10px;
+			}
+			textarea {
+				width: 500px;
+				height: 500px;
+				font-size: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="outercontainer">
+			<h1>Meal Detail</h1>
+			<!-- action tells the page where to go when the page is submitted -->
+			<form action="addmeal.php" method="POST">
+				<div class="form-row">
+					<label for="meal_id" class="main-label">Meal_Id:</label>
+					<input id="meal_id" type="text" name="meal_id" />
+				</div>
+      	<div class="form-row" class="main-label">
+					<label class="main-label" for="m_name">M_Name:</label>
+					<input id="m_name" type="m_name" name="m_name"/>
+				</div>
+        <div class="form-row" class="main-label">
+          <label class="main-label" for="price">Price:</label>
+          <input id="price" type="price" name="price"/>
+        </div>
+        <div class="form-row" class="main-label">
+          <label class="main-label" for="chef_id">Chef_Id:</label>
+          <input id="chef_id" type="chef_id" name="chef_id"/>
+        </div>
+        <div class="form-row" class="main-label">
+          <label class="main-label" for="quantity">Quantity:</label>
+          <input id="quantity" type="quantity" name="quantity"/>
+        </div>
+       <div class="form-row">
+					<!-- Two ways to create a button-->
+					<!-- <input type="submit" value="Order Now"/> -->
+					<button type="submit">Submit </button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
+
+</body>
+
+</html>

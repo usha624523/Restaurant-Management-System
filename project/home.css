@@ -1,0 +1,90 @@
+
+
+
+body{
+	background-image: url("back5.jpg");
+}
+
+t    border: 0px solid #f1f1f1;
+	box-sizing: border-box ;
+    width: 1000px;
+    height: 100px;
+    padding-left: 300px;
+	padding-top:45px;
+}
+.a1
+{
+	padding-left: 370px;
+	padding-top:30px;
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 30px;
+    margin: 10px 8;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 4px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+	box-sizing: border-box;
+}
+
+
+/* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+    width: 20%;
+    padding: 12px 18px;
+    background-color: #f44336;
+}
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 0px 0 22px 0;
+}
+
+/* Avatar image */
+img.avatar {
+	margin-top: 0px;
+    width: 15%;
+    border-radius: 50%;
+}
+
+/* Add padding to containers */
+.container {
+    padding-left: 30px;
+	padding-right: 30px;
+
+}
+.trii{
+	margin-left:300px;
+}
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+}
+login.css
+Displaying login.css.

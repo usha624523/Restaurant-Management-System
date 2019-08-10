@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>ITP 104 - 09-24-18 - form.html</title>
+
+
+
+
+
+</head>
+
+
+  <!doctype html>
+<html>
+	<head>
+		<title>Forms</title>
+		<style>
+			body {
+				font-family: "Arial";
+			}
+      body{
+      	background-image: url("chef.jpg");
+         background-size: 100% ;
+
+         background-repeat: no-repeat;
+      }
+			#outercontainer {
+
+				color: red;
+				width: 800px;
+				margin-left: auto;
+				margin-right: auto;
+				/*opacity: 0.5;*/
+
+			}
+			.form-row {
+				margin-bottom: 10px;
+			}
+			.main-label {
+				font-weight: bold;
+				width: 200px;
+				/* label tags don't take in widths unless we use display: block*/
+				display: block;
+				float: left;
+				text-align: right;
+				margin-right: 10px;
+			}
+			textarea {
+				width: 500px;
+				height: 500px;
+				font-size: 50px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="outercontainer">
+			<h1>Chef Detail</h1>
+			<!-- action tells the page where to go when the page is submitted -->
+			<form action="addchef.php" method="POST">
+				<div class="form-row">
+					<label for="chef_id" class="main-label">Chef_Id:</label>
+					<input id="chef_id" type="text" name="chef_id"  />
+				</div>
+				<div class="form-row" class="main-label">
+					<label class="main-label" for="name">Name:</label>
+					<input id="name" type="name" name="name"/>
+				</div>
+        <div class="form-row" class="main-label">
+          <label class="main-label" for="salary">Salary:</label>
+          <input id="salary" type="salary" name="salary"/>
+        </div>
+        <div class="form-row" class="main-label">
+          <label class="main-label" for="hiredate">Hiredate:</label>
+           <input class="form-control" type="date" name="hiredate"/>
+        </div>
+
+				<div class="form-row">
+					<!-- Two ways to create a button-->
+					<!-- <input type="submit" value="Order Now"/> -->
+					<button type="submit">Submit </button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
+
+
+
+</body>
+
+</html>
+<body>
+<h3><a href="addchef.html">Back</a></h3>
+</body>

@@ -1,0 +1,94 @@
+/*=======================LAYOUTS SECTIONS==============*/
+body {
+	background-color: #9c9f84;
+	margin: 0;
+	font-family: Verdana,Georgia,Serif;
+	background-image: url("background.jpg");
+	font-size: 14px;
+}
+#header {
+	background-color: #5c755e;
+	margin: 10px;
+	height: 90px;
+	border-radius:5px;
+
+}
+/*#navbar {
+	background-color: #5c755e;
+	height: 35px;
+	margin:10px;
+	border-radius:5px;
+}*/
+#navbar ul {
+	padding: 6px;
+	background-color: #000;
+	list-style-type: none;
+	text-align: center;
+	margin: 10px;
+	border-radius:5px;
+}
+#navbar ul li {
+	display: inline;
+}
+#navbar ul li a {
+	text-decoration: none;
+	font-family: Arial;
+	padding: .2em 1em;
+	color: #fff;
+	background-color: #000;
+}
+#navbar ul li a:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+
+#footer {
+	background-color: #5c755e;
+	margin-top: 500px;
+	height: 60px;
+	border-radius:5px;
+	clear: both;
+	color: #efe5d0;
+	text-align: center;
+	font-size:90%;
+
+}
+#footer ul {
+	padding: 6px;
+	list-style-type: none;
+}
+#footer ul li {
+	display: inline;
+}
+#footer ul li a {
+	text-decoration: none;
+	font-family: Arial;
+	padding: .2em 1em;
+	color: #fff;
+}
+#footer ul li a:hover {
+	color: #000;
+	background-color: #fff;
+}
+
+/*=============HEADIN SECTION===============*/
+h1 {
+	color: red;
+}
+h2 {
+	color: red;
+}
+h3 {
+	font-size: 250%;
+	text-align: center;
+    color: #e5e4d7;
+    font-family:"century Gothic"," Gill Sans",Arial;
+    margin: 0px;
+
+    position: relative;  /*==========for vertical align any text========*/
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform:translateY(-50%);
+    transform:translateY(-50%);
+}
